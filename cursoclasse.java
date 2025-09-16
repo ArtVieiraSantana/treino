@@ -4,16 +4,16 @@ public class cursoclasse{
         
 
         var male = new person();
-        male set.name("João");
-        male set.age(12);
+        male.setName("João");
+        male.setAge(12);
 
         var female = new person();
-        female set.name("Maria");
-        female set.age(10);
+        female.setName("Maria");
+        female.setAge(10);
 
         System.out.printf("Male name:", male.getName());
-        System.out.printf("Male age:", male.getage());
+        System.out.printf("Male age:", male.getAge());
         System.out.printf("female name: ", female.getName());
-        System.out.printf("female", female.getage());
+        System.out.printf("female", female.getAge());
     }
 }
